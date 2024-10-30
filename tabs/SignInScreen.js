@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 import firebase from '../firebaseConfig';
+import TypingHeader from '../components/TypingHeader'; 
 
 const AuthScreenWrapper = ({ children }) => (
   <SafeAreaView style={styles.safe}>
@@ -52,6 +53,7 @@ const SignInScreen = ({ navigation }) => {
 
   return (
     <AuthScreenWrapper>
+      <TypingHeader />
       <Text style={styles.title}>Welcome Back</Text>
       <Text style={styles.subtitle}>Sign in to continue</Text>
 
