@@ -8,9 +8,6 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "resolutions": {
-    "@expo/cli": "xxx" 
-  },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "^6.1.18",
@@ -21,6 +18,7 @@
     "expo-image-picker": "~15.0.7",
     "expo-status-bar": "~1.12.1",
     "firebase": "^11.0.1",
+    "lucide-react": "^0.454.0",
     "react": "18.2.0",
     "react-native": "0.74.5",
     "react-native-gesture-handler": "^2.20.1",
